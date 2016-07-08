@@ -1,4 +1,4 @@
-% generate all possible edges e_ij and their labels y_ij \in {-1,+1}
+% generate all possible pairs e_ij and their labels y_ij \in {-1,+1}
 function trn = generate_trn(L, n)
 T = zeros((n-1)*n,2);
 k = 1;

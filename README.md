@@ -12,9 +12,9 @@ Concept graph automatically induced from [MIT OpenCourseWare](http://ocw.mit.edu
 <img src="http://www.cs.cmu.edu/~hanxiaol/img/cgl.png" width="512">
 
 ### Usage
-To carry out cross-validation, run
+To conduct cross-validation, run
 ```
-./main
+matlab -r main
 ```
 Configurations of the program are located at `config.m`.
 

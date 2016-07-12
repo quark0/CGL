@@ -12,11 +12,18 @@ Concept graph automatically induced from [MIT OpenCourseWare](http://ocw.mit.edu
 <img src="http://www.cs.cmu.edu/~hanxiaol/img/cgl.png" width="512">
 
 ### Usage
-To conduct cross-validation, run
+To conduct cross-validation using plain CGL, run
 ```
 matlab -r main
 ```
-Configurations of the program are located at `config.m`.
+Configurations of the program are located at `config.m`. To allow graph transduction, set
+```
+opt.transductive = false;
+```
+To carry out sparse CGL, set
+```
+opt.algorithm = @cgl_rank_sparse;
+```
 
 ### Author
 [Hanxiao Liu](http://www.cs.cmu.edu/~hanxiaol/), Carnegie Mellon University.

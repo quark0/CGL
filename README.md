@@ -4,7 +4,9 @@ The code implements a family of Concept Graph Learning (CGL) algorithms develope
 
 >Yiming Yang, Hanxiao Liu, Jaime Carbonell, and Wanli Ma. "Concept graph learning from educational data." In the Eighth ACM International Conference on Web Search and Data Mining, pp. 159-168. ACM, 2015. [[PDF](http://www.cs.cmu.edu/~hanxiaol/publications/yang-wsdm15.pdf)]
 
-More details about the task and datasets can be found at our [project webpage](http://bonda.lti.cs.cmu.edu/teacher/). Please cite the above papers if you end up using our code and/or datasets. 
+More details about the task and datasets can be found at our [project webpage](http://bonda.lti.cs.cmu.edu/teacher/). The raw data crawled from MIT OpenCourseWare can be found under `data_raw`.
+
+Please cite the above papers if you end up using our code and/or datasets. 
 
 ### Demo
 Concept graph automatically induced from [MIT OpenCourseWare](http://ocw.mit.edu/):
